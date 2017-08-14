@@ -20,6 +20,7 @@ NOW=$(date +"%Y-%m-%d")
 #done
 
 #if [ -x /usr/bin/bzr ] && [ -d ${TARGET}/.bzr/branch ]; then
+eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 cd $TARGET
 git add .
