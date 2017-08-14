@@ -23,7 +23,7 @@ NOW=$(date +"%Y-%m-%d")
 cd $TARGET
 git add .
 git commit -m "$NOW"
-git push -u origin master
+git push
 #else
 #  /usr/bin/logger "$0 - bzr nicht verfuegbar oder Backup-Ziel nicht unter Versionskontrolle"
 #fi
