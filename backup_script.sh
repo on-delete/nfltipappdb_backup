@@ -13,7 +13,7 @@ NOW=$(date +"%Y-%m-%d")
 
 echo "Backup created, now uploading to git..." >> /var/log/backuplog
 eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
+ssh-add /home/andre/.ssh/id_rsa
 cd $TARGET
 git add .
 git commit -m "$NOW"
