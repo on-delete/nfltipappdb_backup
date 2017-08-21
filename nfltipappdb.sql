@@ -2133,8 +2133,8 @@ CREATE TABLE `predictions_plus` (
 
 LOCK TABLES `predictions_plus` WRITE;
 /*!40000 ALTER TABLE `predictions_plus` DISABLE KEYS */;
-INSERT INTO `predictions_plus` VALUES (5,3,1,1,25,27,9);
-INSERT INTO `predictions_plus` VALUES (16,18,11,15,NULL,NULL,NULL);
+INSERT INTO `predictions_plus` VALUES (5,3,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `predictions_plus` VALUES (16,18,1,15,NULL,NULL,NULL);
 INSERT INTO `predictions_plus` VALUES (17,19,27,1,30,20,28);
 INSERT INTO `predictions_plus` VALUES (18,20,21,2,25,1,28);
 INSERT INTO `predictions_plus` VALUES (23,23,1,1,NULL,NULL,29);
