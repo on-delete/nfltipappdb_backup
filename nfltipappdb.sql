@@ -2139,7 +2139,7 @@ INSERT INTO `predictions_plus` VALUES (17,19,27,1,30,20,28);
 INSERT INTO `predictions_plus` VALUES (18,20,21,2,25,1,28);
 INSERT INTO `predictions_plus` VALUES (23,23,1,1,NULL,NULL,29);
 INSERT INTO `predictions_plus` VALUES (24,25,5,5,17,5,29);
-INSERT INTO `predictions_plus` VALUES (25,26,29,NULL,NULL,NULL,NULL);
+INSERT INTO `predictions_plus` VALUES (25,26,29,13,29,21,29);
 INSERT INTO `predictions_plus` VALUES (26,27,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `predictions_plus` ENABLE KEYS */;
 UNLOCK TABLES;
