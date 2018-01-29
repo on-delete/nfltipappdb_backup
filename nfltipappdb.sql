@@ -2221,7 +2221,7 @@ CREATE TABLE `predictions_plus` (
 
 LOCK TABLES `predictions_plus` WRITE;
 /*!40000 ALTER TABLE `predictions_plus` DISABLE KEYS */;
-INSERT INTO `predictions_plus` VALUES (5,3,NULL,NULL,NULL,31,23);
+INSERT INTO `predictions_plus` VALUES (5,3,NULL,1,20,31,23);
 INSERT INTO `predictions_plus` VALUES (16,18,18,6,24,7,9);
 INSERT INTO `predictions_plus` VALUES (23,23,1,1,21,5,29);
 INSERT INTO `predictions_plus` VALUES (24,25,5,5,17,5,15);
