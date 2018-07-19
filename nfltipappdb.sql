@@ -1234,7 +1234,7 @@ CREATE TABLE `user` (
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` VALUES (3,'admin','admin@mail.com','password');
-INSERT INTO `user` VALUES (30,'Andre','akr.tester@googlemail.com','$2a$10$mf2yldnYpmPtGU2w00xUCuvjqDVWhOfO6qYbH0dF9CWyFOf5Oojuy');
+INSERT INTO `user` VALUES (30,'Andre','akr.tester@googlemail.com','$2a$10$AFoornqhrbfpIOab6KV9budE3DbIx1u9ba2ATT.aBo.B3Nvnup0De');
 INSERT INTO `user` VALUES (31,'Hippus','chippe@gmx.net','$2a$10$JawiaZaiHFAL4GwtDN8/YOYT5phDxMg/FDBUPAk.pvmkrCEDbJm1u');
 INSERT INTO `user` VALUES (32,'Juni ','juneski.david@gmx.de','$2a$10$f8tp4ebk783bRjzkpVcVpe5V3PKkA3sTEPwvtRJxOuIo6TOz72U1C');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
