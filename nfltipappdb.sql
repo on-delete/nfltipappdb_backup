@@ -1623,7 +1623,7 @@ LOCK TABLES `predictions_plus` WRITE;
 /*!40000 ALTER TABLE `predictions_plus` DISABLE KEYS */;
 INSERT INTO `predictions_plus` VALUES (5,3,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO `predictions_plus` VALUES (29,30,NULL,15,NULL,NULL,NULL);
-INSERT INTO `predictions_plus` VALUES (30,31,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `predictions_plus` VALUES (30,31,NULL,1,31,31,12);
 INSERT INTO `predictions_plus` VALUES (31,32,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO `predictions_plus` VALUES (32,33,1,1,31,21,12);
 INSERT INTO `predictions_plus` VALUES (33,34,5,5,23,5,12);
