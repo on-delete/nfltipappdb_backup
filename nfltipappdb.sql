@@ -316,7 +316,7 @@ CREATE TABLE `predictions` (
   KEY `game_id` (`game_id`),
   CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`),
   CONSTRAINT `predictions_ibfk_2` FOREIGN KEY (`game_id`) REFERENCES `games` (`game_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14390 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=14383 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `predictions` WRITE;
